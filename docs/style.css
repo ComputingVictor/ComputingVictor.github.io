@@ -8,19 +8,30 @@
     --delay: .3s;
 }
 
-body {
-    margin: 0;
-    padding: 0;
+@keyframes move-it {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100px 0;
+    }
+  }
+  
+  body {
     min-height: 100vh;
-    font-family: var(--font);
-    background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%);
-    opacity: 0;
-    animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
-    animation-fill-mode: forwards;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: repeating-linear-gradient(
+      45deg,
+      #2D4356,
+      #2D4356 5%,
+      #435B66 5%,
+      #435B66 10%
+    );
+    background-size: 100% 100%;
+    animation: move-it 10s linear infinite;
     position: relative;
-}
+  }
+  
+  
 
 #profilePicture, #profilePicture img {
     position: relative;
@@ -134,6 +145,7 @@ body {
 }
 
 
+
 /*-------------------------popup------------------------*/
 /* credits: https://www.youtube.com/watch?v=lAS2glU0xlc */
 .overlay {
@@ -234,4 +246,6 @@ body {
     background-color: var(--accentColor);
     color: var(--bgColor);
 }
+
+
 
