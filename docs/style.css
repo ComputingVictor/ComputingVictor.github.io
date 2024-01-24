@@ -26,7 +26,7 @@
       #435B66 5%,
       #435B66 10%
     );
-    background-size: 200% 100%; /* Ajusta el valor según sea necesario */
+    background-size: 200% 100%;
     animation: move-it 50s linear infinite;
     position: relative;
   }
