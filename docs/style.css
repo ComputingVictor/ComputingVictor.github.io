@@ -13,7 +13,7 @@
       background-position: 0 0;
     }
     100% {
-      background-position: 100px 0;
+      background-position: 100% 0;
     }
   }
   
@@ -26,10 +26,11 @@
       #435B66 5%,
       #435B66 10%
     );
-    background-size: 100% 100%;
-    animation: move-it 10s linear infinite;
+    background-size: 200% 100%; /* Ajusta el valor según sea necesario */
+    animation: move-it 50s linear infinite;
     position: relative;
   }
+  
   
   
 
