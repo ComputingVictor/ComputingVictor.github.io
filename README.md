@@ -1,5 +1,8 @@
 # ComputingVictor's Personal Website
 
+![image](https://github.com/ComputingVictor/ComputingVictor.github.io/assets/115224707/2def7a02-ce19-4f5a-82e8-a32484e39012)
+
+
 This repository contains the source code for my personal website hosted on GitHub Pages. The page is designed in a Linktree style, providing links to my profiles on different platforms.
 
 
