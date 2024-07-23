@@ -56,6 +56,16 @@
     text-decoration: none;
 }
 
+.realName {
+    display: block;
+    color: var(--accentColor);
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.25;
+    font-family: var(--font);
+}
+
+
 #links {
     max-width: 675px;
     width: auto;
