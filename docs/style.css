@@ -10,29 +10,26 @@
 
 @keyframes move-it {
     0% {
-      background-position: 0 0;
+        background-position: 0 0;
     }
     100% {
-      background-position: 100% 0;
+        background-position: 100% 0;
     }
-  }
-  
-  body {
+}
+
+body {
     min-height: 100vh;
     background: repeating-linear-gradient(
-      45deg,
-      #2D4356,
-      #2D4356 5%,
-      #435B66 5%,
-      #435B66 10%
+        45deg,
+        #2D4356,
+        #2D4356 5%,
+        #435B66 5%,
+        #435B66 10%
     );
     background-size: 200% 100%;
     animation: move-it 50s linear infinite;
     position: relative;
-  }
-  
-  
-  
+}
 
 #profilePicture, #profilePicture img {
     position: relative;
@@ -65,7 +62,6 @@
     font-family: var(--font);
 }
 
-
 #links {
     max-width: 675px;
     width: auto;
@@ -87,7 +83,6 @@
     margin-bottom: 10px;
     padding: 10px; /* 17px */
     text-decoration: none;
-    /* transition: all .25s cubic-bezier(.08, .59, .29, .99); */
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -113,7 +108,7 @@
     width: 100%;
     text-align: center;
 
-    /*  animation   */
+    /* animation */
     overflow: hidden;
     background: linear-gradient(90deg, var(--bgColor), var(--accentColor), var(--bgColor));
     background-repeat: no-repeat;
@@ -123,7 +118,6 @@
     background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
-
 
 /*-------------------------animations-----------------------*/
 @keyframes transitionAnimation {
@@ -139,10 +133,10 @@
 
 @keyframes animate {
     0% {
-      background-position: -500%;
+        background-position: -500%;
     }
     100% {
-      background-position: 500%;
+        background-position: 500%;
     }
 }
 
@@ -154,8 +148,6 @@
         transform: translateY(-2000px);
     }
 }
-
-
 
 /*-------------------------popup------------------------*/
 /* credits: https://www.youtube.com/watch?v=lAS2glU0xlc */
@@ -179,24 +171,21 @@
 .popup {
     position: relative;
     top: -43%;
-    /* right: -100vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 400px;
-    /* max-height: 500px; */
     width: auto;
     height: auto;
     margin: 56px;
     background-color: var(--bgColor);
-    /* transform: rotate(32deg); */
     transform: scale(0);
     transition: .5s ease-in-out;
 }
 
 .popup-quote {
-    font-family : Baskerville, Georgia, serif;
-    font-style : italic;
+    font-family: Baskerville, Georgia, serif;
+    font-style: italic;
     position: flex;
     color: var(--accentColor);
     padding: 20px;
@@ -223,8 +212,6 @@
 .overlay:target .popup {
     transform: scale(1);
     top: 0;
-    /* right: 0; */
-    /* transform: rotate(0); */
 }
 
 .popup-close {
@@ -257,6 +244,3 @@
     background-color: var(--accentColor);
     color: var(--bgColor);
 }
-
-
-
