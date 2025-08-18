@@ -1,30 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Víctor Viloria | Linktree</title>
+    <title>Víctor Viloria | Data Scientist</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Víctor Viloria - Data Scientist. Connect with me on GitHub, LinkedIn, Kaggle, Stack Overflow and Medium.">
+    <meta name="keywords" content="Víctor Viloria, Victor Viloria, Data Scientist, Machine Learning, GitHub, LinkedIn, Kaggle, Stack Overflow, Medium">
+    <meta name="author" content="Víctor Viloria">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Víctor Viloria | Data Scientist">
+    <meta property="og:description" content="Data Scientist specializing in Machine Learning and Analytics. Connect with me on GitHub, LinkedIn, Kaggle, Stack Overflow and Medium.">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/ComputingVictor">
+    <meta property="og:url" content="https://computingvictor.github.io">
+    <meta property="og:type" content="profile">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Víctor Viloria | Data Scientist">
+    <meta name="twitter:description" content="Data Scientist specializing in Machine Learning and Analytics. Connect with me on GitHub, LinkedIn, Kaggle, Stack Overflow and Medium.">
+    <meta name="twitter:image" content="https://avatars.githubusercontent.com/ComputingVictor">
+    
     <!-- Favicon -->
     <link rel="icon" href="https://avatars.githubusercontent.com/ComputingVictor" type="image/x-icon" />
+    
+    <!-- Performance Optimizations -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://use.fontawesome.com">
+    
     <!-- Font Awesome icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <!-- Core theme CSS -->
     <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
   </head>
 
   <body>
-    <a id="profilePicture" href="#popup">
-      <img src="https://avatars.githubusercontent.com/ComputingVictor" alt="Profile Picture">
+    <a id="profilePicture" href="#popup" aria-label="Ver foto de perfil ampliada">
+      <img src="https://avatars.githubusercontent.com/ComputingVictor" alt="Foto de perfil de Víctor Viloria, Data Scientist">
     </a>
 
     <div class="overlay" id="popup">
       <div class="popup">
         <div class="popup-photo">
-          <a href="https://avatars.githubusercontent.com/ComputingVictor" target="_blank">
-            <img src="https://avatars.githubusercontent.com/ComputingVictor" alt="Profile Picture">
+          <a href="https://avatars.githubusercontent.com/ComputingVictor" target="_blank" aria-label="Ver imagen original en GitHub">
+            <img src="https://avatars.githubusercontent.com/ComputingVictor" alt="Foto de perfil de Víctor Viloria en tamaño completo">
           </a>
         </div>
-        <a class="popup-close" onclick="history.back()">&times;</a>
+        <a class="popup-close" onclick="history.back()" aria-label="Cerrar ventana emergente">&times;</a>
       </div>
     </div>
 
@@ -34,22 +68,22 @@
       <span class="realName">Victor Viloria Vázquez</span>
     </div>
 
-    <div id="links">
-      <a class="link" href="https://github.com/ComputingVictor" target="_blank">
-        <i class="fab fa-github">&nbsp;</i>Github
+    <nav id="links" role="navigation" aria-label="Enlaces a perfiles sociales">
+      <a class="link" href="https://github.com/ComputingVictor" target="_blank" rel="noopener noreferrer" aria-label="Visitar perfil de GitHub">
+        <i class="fab fa-github" aria-hidden="true">&nbsp;</i>Github
       </a>
-      <a class="link" href="https://www.linkedin.com/in/vicviloria" target="_blank">
-        <i class="fab fa-linkedin">&nbsp;</i>Linkedin
+      <a class="link" href="https://www.linkedin.com/in/vicviloria" target="_blank" rel="noopener noreferrer" aria-label="Visitar perfil de LinkedIn">
+        <i class="fab fa-linkedin" aria-hidden="true">&nbsp;</i>LinkedIn
       </a>
-      <a class="link" href="https://www.kaggle.com/computingvictor" target="_blank">
-        <i class="fab fa-kaggle">&nbsp;</i>Kaggle
+      <a class="link" href="https://www.kaggle.com/computingvictor" target="_blank" rel="noopener noreferrer" aria-label="Visitar perfil de Kaggle">
+        <i class="fab fa-kaggle" aria-hidden="true">&nbsp;</i>Kaggle
       </a>
-      <a class="link" href="https://stackoverflow.com/users/20613816/computingvictor" target="_blank">
-        <i class="fab fa-stack-overflow"></i> Stack Overflow
+      <a class="link" href="https://stackoverflow.com/users/20613816/computingvictor" target="_blank" rel="noopener noreferrer" aria-label="Visitar perfil de Stack Overflow">
+        <i class="fab fa-stack-overflow" aria-hidden="true"></i> Stack Overflow
       </a>
-      <a class="link" href="https://medium.com/@VictorViloria" target="_blank">
-        <i class="fab fa-medium"></i> Medium
+      <a class="link" href="https://medium.com/@VictorViloria" target="_blank" rel="noopener noreferrer" aria-label="Visitar perfil de Medium">
+        <i class="fab fa-medium" aria-hidden="true"></i> Medium
       </a>
-    </div>
+    </nav>
   </body>
 </html>
