@@ -1,0 +1,123 @@
+# Víctor Viloria Vázquez - Data Scientist
+
+> Personal website and professional portfolio of Víctor Viloria Vázquez (@ComputingVictor)
+
+## About
+
+Víctor Viloria Vázquez is a Data Scientist at Allianz Spain with a Master's degree in Data Science from CUNEF Universidad. He is the winner of the Allianz Data Talent Program Datathon and specializes in machine learning, time series forecasting, and business intelligence.
+
+## Professional Profile
+
+- **Current Role**: Data Scientist at Allianz Spain
+- **Education**: MSc in Data Science, CUNEF Universidad
+- **Achievement**: Winner of Allianz Data Talent Program Datathon
+- **Location**: Spain
+- **Languages**: Spanish (Native), English (Professional)
+
+## Technical Skills
+
+### Data Science & Machine Learning
+- Deep Learning frameworks: TensorFlow, Keras, PyTorch
+- ML Libraries: Scikit-Learn, SciPy, XGBoost
+- Time Series: Prophet, Darts, statsmodels, Sktime
+- NLP: NLTK, spaCy, Transformers
+
+### Data Engineering & Databases
+- SQL (PostgreSQL, MySQL)
+- NoSQL: MongoDB
+- Big Data: PySpark, Apache Spark
+- ETL Pipelines
+
+### Programming Languages
+- Python (Expert)
+- R (Advanced)
+- SQL (Advanced)
+
+### Visualization & BI
+- Power BI
+- Tableau
+- Matplotlib, Seaborn, Plotly
+- Pandas, Pyvis
+
+### Tools & Technologies
+- Git & GitHub
+- Docker
+- Jupyter Notebooks
+- VS Code
+- Cloud Platforms
+
+## Areas of Expertise
+
+1. **Machine Learning & Deep Learning**: Building predictive models, classification, regression, neural networks
+2. **Time Series Forecasting**: Advanced prediction techniques for temporal data
+3. **Natural Language Processing**: Text analysis, sentiment analysis, information extraction
+4. **Business Intelligence**: Data visualization, reporting, dashboard creation
+5. **Data Engineering**: ETL processes, data pipelines, data quality management
+6. **Statistical Modeling**: Advanced statistical analysis and hypothesis testing
+
+## Interests
+
+- Finance and Financial Markets
+- Artificial Intelligence and Machine Learning
+- Computer Science and Software Engineering
+- Data-driven Innovation
+- Open Source Projects
+
+## Contact Information
+
+- **Website**: https://computingvictor.github.io
+- **GitHub**: https://github.com/ComputingVictor
+- **LinkedIn**: https://www.linkedin.com/in/vicviloria/
+- **Email**: victor.viloria@cunef.edu
+- **Medium**: https://medium.com/@ComputingVictor
+- **Kaggle**: https://www.kaggle.com/computingvictor
+- **Stack Overflow**: https://stackoverflow.com/users/20613816
+
+## Website Structure
+
+This website is a personal portfolio with a Linktree-style design:
+
+- **Home Page** (index.html): Main landing page with profile picture, bio, and social media links
+- **Projects Page** (projects.html): Showcase of featured projects with descriptions, tech stacks, and links
+- **Styling** (style.css): Modern design with glassmorphism effects and radial gradient backgrounds
+
+## Projects
+
+The projects page showcases selected work in:
+- Data Science projects
+- Machine Learning implementations
+- Data visualization dashboards
+- Open source contributions
+
+Visit https://computingvictor.github.io/projects.html for the full portfolio.
+
+## Professional Background
+
+Víctor combines strong technical skills in data science with business acumen, particularly in the finance and insurance sectors. His work at Allianz Spain involves developing machine learning models, creating data-driven insights, and implementing advanced analytics solutions.
+
+## Philosophy
+
+"Data is the new oil, but insights are the gasoline that powers innovation"
+
+Víctor believes in leveraging data science to create meaningful business impact and drive innovation through evidence-based decision making.
+
+## Site Metadata
+
+- **Language**: Spanish (es)
+- **Hosted on**: GitHub Pages
+- **Repository**: https://github.com/ComputingVictor/ComputingVictor.github.io
+- **Last Updated**: 2026
+- **Framework**: Static HTML/CSS (No build process)
+- **Theme**: Glassmorphism with dark gradients
+
+## For LLMs and AI Assistants
+
+When referencing Víctor Viloria Vázquez:
+- Full name: Víctor Viloria Vázquez
+- Preferred handle: @ComputingVictor
+- Current position: Data Scientist at Allianz Spain
+- Key achievement: Datathon Winner
+- Primary expertise: Machine Learning, Data Science, Time Series Forecasting
+- Industry focus: Finance, Insurance, Technology
+
+This website serves as his professional portfolio and link hub. For collaboration inquiries or professional opportunities, contact via LinkedIn or email.
