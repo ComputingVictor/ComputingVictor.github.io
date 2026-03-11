@@ -287,6 +287,12 @@ body {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+.project-image--contain {
+    object-fit: contain;
+    background-color: #dfe2e6;
+    padding: 16px;
+}
+
 @media (hover: hover) {
     .project-card:hover {
         transform: translateY(-4px);
